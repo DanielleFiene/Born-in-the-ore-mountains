@@ -1,0 +1,85 @@
+/* entire page settings */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* body */
+body {
+    color: #E7E8D1;
+}
+
+/* Navigation bar */
+.navigation ul {
+    background-color: sienna;
+    box-sizing: border-box;
+    overflow-y: auto;
+    padding: 10px;
+    box-shadow: 0 3px 6px #2d2d2d, 0 -4px 3px #2d2d2d;
+  }
+
+  .navigation ul li {
+    display: inline;
+    float: center;
+    
+  }
+
+  .navigation {
+    text-align: center;
+    
+  }
+
+  .navigation a {
+    text-decoration: none;
+    color: #330000;
+    font-weight: bold;
+    font-size: 1.4em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.navigation a:hover {
+    color: #1f3a28;
+    text-decoration: underline;
+}
+
+/* Hero/header section */
+#hero {
+    background-image: url('/resources/images/Alves.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    height: 900px;
+    width: 100%;
+    box-shadow: 0 3px 6px #2d2d2d, 0 -4px 3px #2d2d2d;
+}
+
+h1 {
+    font-size: 3.5em;
+    text-decoration: underline;
+    margin-left: 7%;
+    padding-top: 25px;
+    color:  #423014;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+    }
+
+h3 {
+    font-size: 2.5em;
+    margin-left: 7%;
+    padding-top: 25px;
+    color:  #423014;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+}
+
+p {
+    color:  #423014;
+    margin-left: 7%;
+}
+
+footer a {
+    padding: 20px;
+}
