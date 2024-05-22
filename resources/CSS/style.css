@@ -48,7 +48,7 @@ body {
 
 /* Hero/header section */
 #hero {
-    background-image: url('/resources/images/Alves.jpg');
+    background-image: url('../images/Alves.jpg');
     background-size: cover;
     background-position: bottom center;
     height: 900px;
