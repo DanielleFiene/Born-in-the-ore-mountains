@@ -8,7 +8,7 @@
 
 /* body */
 body {
-    color: #E7E8D1;
+    background-color: #E7E8D1;
 }
 
 /* Navigation bar */
@@ -42,7 +42,7 @@ body {
 }
 
 .navigation a:hover {
-    color: #1f3a28;
+    color: #6495ED;
     text-decoration: underline;
 }
 
@@ -67,7 +67,7 @@ h1 {
     }
 
 h3 {
-    font-size: 2.5em;
+    font-size: 2.3em;
     margin-left: 7%;
     padding-top: 25px;
     color:  #423014;
@@ -80,6 +80,59 @@ p {
     margin-left: 7%;
 }
 
-footer a {
-    padding: 20px;
+
+/* Gallery .hmtl */
+.row1 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 3%;
+    margin-right: 3%;
 }
+  
+.column1 {
+    flex-wrap: wrap;
+}
+
+/* Alves .html */
+.row2 {
+    display: flex;
+    margin-left: 6%;
+    height: 400px;
+  }
+  
+  .column2 {
+    padding: 20px;
+  }
+
+
+/* footer section */
+
+footer {
+    background-color: sienna;
+    padding: 30px;
+}
+
+footer a {
+    padding: 30px;
+    text-transform: uppercase;
+    color: darkblue;
+}
+
+footer a:hover {
+    color: #6495ED;
+    text-decoration: underline; 
+}
+
+.p2 {
+  color: #330000;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+@media screen and (max-width: 500px) {
+    .column2 {
+      width: 100%;
+    }
+  }
